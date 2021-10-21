@@ -17,7 +17,7 @@ int main()
     A *inicio = NULL, *num = NULL;
     manda_insert(&inicio);
     while(opc!='0'){
-        printf("\nConcurso Programacion\n\n1.Insertar palabra a convertir\n0.Salir \nopc: ");
+        printf("\nMorse\n\n1.Insertar palabra a convertir\n0.Salir \nopc: ");
         fflush(stdin);
         scanf("%c",&opc);
             switch (opc)
